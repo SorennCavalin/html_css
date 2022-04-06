@@ -1,0 +1,13 @@
+ol {
+    color: crimson;
+}
+p {
+    color: blue;
+}
+ul {
+    color: green;
+}
+p, ul, ol {
+    font-size: x-large;
+    text-align: center;
+}
