@@ -1,0 +1,43 @@
+body{
+    width: 50%;
+    margin: auto ;
+}
+table {
+    border: 1px transparent black;
+    border-collapse: collapse;
+}
+thead{
+    border: 1px solid black;
+    
+}
+th{
+    border: 1px solid black;
+    padding: 30px;
+}
+tbody{
+    margin: 0px;
+    padding: 10px;
+}
+tr{
+    border: 1px solid black;
+    padding: 30px;
+}
+td{
+    border: 1px solid black;
+    padding: 30px;
+}
+.jaune{
+    background-color: yellow;
+}
+.gris{
+    background-color: gray;
+}
+.noir{
+    background-color: black;
+}
+.bleu{
+    background-color: blue;
+}
+.blanc_cassé{
+    background-color: wheat;
+}

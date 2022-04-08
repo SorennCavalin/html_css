@@ -1,0 +1,68 @@
+body{
+    width: 50%;
+    margin: auto ;
+}
+table {
+    border: 0px thin white;
+    border-collapse: collapse;
+}
+thead{
+    border: 0px solid white;
+    
+}
+th{
+    border: 0px solid white;
+    padding: 10px;
+}
+tbody{
+    margin: 0px;
+    padding: 10px;
+}
+tr{
+    border: 0px solid white;
+    padding: 10px;
+}
+td{
+    border: 0px solid white;
+    padding: 10px;
+}
+.noir{
+    background-color: black;
+}
+.marron_foncé{
+    background-color: #312519;
+}
+.marron_clair{
+    background-color: #423223;
+
+}
+.marron_très{
+    background-color: #d29a61;
+}
+.blanc_cassé{
+    background-color: wheat;
+}
+.red{
+    background-color: #973319;
+}
+.red_foncé{
+    background-color: #7a3521;
+}
+.jaune{
+    background-color: #fecb36;
+}
+.peau{
+    background-color: #fea880;
+}
+.peau_sombre{
+    background-color: #fe9a65;
+}
+.vert_foncé{
+    background-color: #344623;
+}
+.vert{
+    background-color: #415a2a;
+}
+.vert_clair{
+    background-color: #669b35;
+}

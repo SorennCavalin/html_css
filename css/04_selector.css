@@ -1,0 +1,50 @@
+body{
+    font-size: 25px;
+}
+h1{ 
+    background-color: darkslategray;
+    color: white;
+}
+section p {
+color: red;
+}
+section p:first-child {
+    color: darkblue;
+}
+section p:nth-child(even) {
+    color: lightblue;
+
+}
+section p:last-child {
+    color: lightgreen;
+}
+section p:nth-child(odd) {
+    color: rgb(230, 226, 17);
+}
+section p:nth-child(3),
+section p:nth-child(10) {
+    color: orange;
+}
+.zone1{
+color: #dc143c;
+}
+.zone2{
+    color: #008080;
+}
+.lime{
+    color: #0f0;
+}
+#zone3{
+background-color: #f5deb3;
+}
+#zone3:after{
+    content: "rajouté après";
+}
+#zone3::before{
+content: "rajouté avant";
+background-color: cyan;
+}
+li:nth-child(2){
+background-color: darkred;
+color: white;
+}
