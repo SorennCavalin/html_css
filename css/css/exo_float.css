@@ -2,7 +2,7 @@ div{
     width: 50px;
     height: 50px;
     margin: 10px 10px 10px 10px;
-    border-radius: 10%;
+    border-radius: 50% 10% 26% 38%;
     float: left;
     display: inline-block ;
     text-align: center;

@@ -1,0 +1,17 @@
+h1,div,section,p,span,a{
+    background-color: lightblue;
+    border: solid 1px magenta ;
+    text-align: center;
+    font-size: 18hv;
+}
+.deux{
+    display: inline;
+}
+.trois{
+    display: block;
+}
+.styler{
+    font-style: oblique;
+    font-family:'Times New Roman';
+    border: 0px;
+}
