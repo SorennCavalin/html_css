@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    background-color: blue;
+}
+div{
+    width: 90%;
+    margin: 0;
+    background-color: aquamarine;
+}
+p{
+    background-color: mediumaquamarine;
+}
+p span{
+    background-color: yellow;
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background: url(../img/lion.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: left;
+    transition: margin0.5s;
+}
+.boite:hover{
+    margin-top: 10vh;
+    margin-bottom: -10vh;
+}
+.clear{
+    clear: both;
+}
+p:hover{
+    color: red;
+}

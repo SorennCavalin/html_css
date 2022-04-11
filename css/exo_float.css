@@ -1,0 +1,29 @@
+div{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10%;
+    float: left;
+    display: inline-block ;
+    text-align: center;
+    font-size: xx-small;
+    
+}
+
+.violet{
+    background-color: blueviolet;
+    float: left;
+}
+.vert{
+    background-color: greenyellow;
+    float: left;
+}
+div.clear{
+    clear: both;
+}
+.vert:hover{
+    background-color: blueviolet;
+}
+.violet:hover{
+    background-color: greenyellow;
+}
