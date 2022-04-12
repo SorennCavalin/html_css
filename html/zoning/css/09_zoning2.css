@@ -1,0 +1,59 @@
+body{
+    border: 3px solid darkred;
+    height:1000px;
+    color: white;
+}
+header{
+    background-color: brown;
+    color: white;
+    height: 10%;
+}
+nav{
+    height: 5%;
+    background-color: darkred;
+    color: white;
+}
+section{
+    height: 75%;
+    background-color: darkgoldenrod;
+    color: white;
+}
+footer{
+    background-color: darkred;
+    color: white;
+    height: 10%;
+}
+.cube{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.A{
+    background-color: blue;
+    
+    width: 40%;
+    height: 200px;
+
+}
+.D{
+    background-color: red;
+   
+    width: 40%;
+    height: 200px;
+}
+.C{
+    background-color: green;
+   
+    width: 40%;
+    height: 200px;
+}
+.B{
+    background-color: black;
+    
+    width: 40%;
+    height: 200px;
+}
+
