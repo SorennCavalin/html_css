@@ -1,0 +1,200 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+@media(min-width: 768px) and (max-width: 111111111111px)
+{
+ html{
+    text-align: center;
+
+}
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+header{
+    width: 100%;
+    background-color: red;
+/* line-height: 5em; */
+height: 5vh;
+}
+.vert{
+    width: 24%;
+    background-color: lightgreen;
+    border: solid black;
+line-height: 50em;}
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.milieu{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.mid{ 
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.gauche{
+    width: 20%;
+    background-color: blue;
+    line-height: 50em;
+}
+.droite{
+    width: 20%;
+    background-color: blue;
+    line-height: 50em;
+}
+section{
+    
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+footer{
+    
+    width: 100%;
+    background-color: yellow;
+line-height: 5em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px)
+{
+
+    html{
+        text-align: center;
+        padding: 0%;
+    
+    }
+    body{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        background-color: red;
+    /* line-height: 5em; */
+    height: 5vh;
+}
+    .vert{
+        width: 24%;
+        background-color: lightgreen;
+        border: solid black;
+    line-height: 50em;}
+    .container{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    
+    }
+    .milieu{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .mid{ 
+        width: 60%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .gauche{
+        width: 20%;
+        background-color: blue;
+        line-height: 50em;
+    }
+    .droite{
+        width: 20%;
+        background-color: blue;
+        line-height: 50em;
+    }
+    section{
+        
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    footer{
+        
+        width: 100%;
+        background-color: yellow;
+    line-height: 5em;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* html{
+        text-align: center;
+    
+    }
+    body{
+        height: 1400px;
+        width: 1000px;
+    }
+
+body {}
+    header{
+        width: 1000px;
+        background-color: red;
+        line-height: 100px;
+    }
+    div{
+        float: left;
+        width: 134px;
+        background-color: lightgreen;
+        border: solid black;
+        line-height: 800px ;
+    }
+    .gauche{
+        float: left;
+        width: 150px;
+        background-color: blue;
+        line-height: 900px;
+    }
+    .droite{
+        float: right;
+        width: 150px;
+        background-color: blue;
+        line-height: 900px;
+    }
+    footer{
+        width: ;
+        background-color: yellow;
+        line-height: 94px;
+    } */
