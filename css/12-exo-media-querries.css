@@ -138,5 +138,13 @@ footer{
         height: 10vh;
         line-height: 100%;
     }
-
+    .droite{
+        display: flex;
+        /* flex-direction: column; */
+        align-content: center;
+        width: 100%;
+    }
+    .carrebleu2{
+        text-align: center;
+    }
 }
