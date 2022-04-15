@@ -1,0 +1,142 @@
+header div{
+    background-color: violet;
+    border: 0px solid violet;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    /* position: fixed;
+    top: 0%; */
+    width: 100%;}
+.haut{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 10px;
+    width: 100%;color: white;
+}
+.haut h1{
+    padding-left: 10px;
+}
+.milieu{
+    font-size: 17px;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 20%;
+    width: 100%;
+}
+.carrebleu{
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    margin-top: 5px;
+    width: 100%;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.milieu{
+    color: black;
+}
+.droite{
+    background-color: skyblue;
+    /* border: 1px solid skyblue; */
+    text-align: center;
+    /* margin-right: 20px ; */
+    width: 20%;
+    line-height: 35%;
+}
+.sec1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.sec1 img {
+    width: 451px;
+    margin: 11px;
+}
+footer{
+    background-color: skyblue;
+    color: white;
+    line-height: 70px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 1900px) {
+    .sec1 img{
+        width: 47.9%;
+    }
+    .sec1 div{
+        width: 100%;
+    }
+    .haut{
+        justify-content: space-between;
+    }
+    .gauche{
+        margin-right: 20px;
+    }
+    .droite{
+        margin-left: 20px;
+        line-height: 15px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .haut{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gauche{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: 0%;
+    /* padding-left: 10%; */}
+    .carrebleu{
+        width: 40%;
+    }
+    #num1, #num2{
+        margin-left: 10px;
+    }
+    .milieu{
+        text-align: center;
+    }
+    .droite{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0%;
+    }
+    .carrebleu2{
+        width: 30%;
+        margin-top: 1vh;
+    }
+    .sec1 img{
+        width: 47.7%;
+    }
+    .sec1 div{
+        width: 100%;
+    }
+    .margin{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .sec1 img{
+        width: 40vw;
+    }
+    .sec1 div{
+        display: flex;
+        justify-content: center;
+    }
+    .sec1{
+        display: flex;
+        align-content: space-around;
+    }
+}
+@media screen and (max-width: 500px) {
+    footer{
+        height: 10vh;
+        line-height: 100%;
+    }
+
+}
