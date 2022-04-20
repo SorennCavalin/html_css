@@ -1,7 +1,7 @@
 body{
     background: rgb(177, 233, 177);
     box-sizing: border-box;
-    padding: 0% 35%;
+    padding: 0% 30%;
 }
 .container{
     margin-top: 20px;
@@ -10,10 +10,29 @@ body{
     background: white;
     
 }
-
-
-header div{
-    height: 150px;
+header{
+    display: flex;
+    height: 258px;
+    background: no-repeat url(file:///C:/xampp/htdocs/sorenn%20html_css/img/apple.jpg);
+    flex-direction: row-reverse;
+}
+/* header div{
+    background: url(file:///C:/xampp/htdocs/sorenn%20html_css/img/title.gif) no-repeat;
+    width: 397px;
+    height: 68px;
+    margin: 10px 20px 0px 0px;
+} */
+header a{
+    background: url(file:///C:/xampp/htdocs/sorenn%20html_css/img/title.gif) no-repeat;
+    width: 397px;
+    height: 68px;
+    margin: 10px 20px 0px 0px;
+    opacity: 1;
+    color: transparent;
+}
+.text{
+    margin-top: 10px;
+    margin-left: 20px;
 }
 nav{
     background-color: rgb(183, 230, 122);
@@ -23,26 +42,47 @@ nav ul{
     display: flex;
     flex-direction: row;
     padding: 0%;
+    margin-top: 0%;
 }
 nav li{
-    padding: 0% 1.65em;
+    width: 20%;
+    text-align: center;
     list-style-type: none;
     border-right: 1px solid white;
+    background-image:url(file:///C:/xampp/htdocs/sorenn%20html_css/img/bg_menu.gif);
 
 }
 nav a {
     text-decoration: none;
     color: white;
 }
+main{
+    background: url(file:///C:/xampp/htdocs/sorenn%20html_css/img/bg_page.gif) no-repeat 15px 20px ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 main section{
     padding: 0% 1em 0% 5em;
-    text-indent: 10%;
+    text-indent: 5%;
+    text-align:start;
 }
 main section h1{
     border-bottom: 1px solid lightgreen;
+    margin-top: 0%;
+    text-indent: 0%;
+    line-height: 16px;
+    color: yellowgreen;
+}
+main section h1 p{
+    line-height: 22px;
+    margin: 0%;
+}
+main section h1 img{
+    float: left;
 }
 main section p:nth-child(odd){
     text-indent: 0%;
+    line-height: 22px;
 }
 .barre{
     border-left: 2px solid lightgreen;
@@ -53,4 +93,11 @@ main section p:nth-child(odd){
 footer{
     color: lightgreen;
     text-align: right;
+}
+span{
+    background-color: yellow;
+}
+main div{
+    float: left;
+    margin: 20px 0px 0px 10px;
 }
