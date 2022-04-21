@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/test.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            zone du haut
-        </header>
-        <div class="milieu">
-            <nav class="gauche">zone de gauche</nav>
-            <div class="mid"> 
-                <section>
-                    <div class="vert">zone 1</div>
-                    <div class="vert">zone 2</div>
-                    <div class="vert">zone 3</div>
-                    <div class="vert">zone 4</div>
-                    <div class="vert">zone 5</div>
-    
-                </section>
-    
-    
-                <footer>
-                    zone du bas
-                </footer> 
-                
-            </div>
-            <nav class="droite">zone de droite</nav>
-           
-            
-        </div> 
-    </div>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/test.css" />
+    </head>
+    <body>
+        <header></header>
+        <nav></nav>
+        <main>
+            <iframe src="https://www.youtube.com/watch?v=lc8bR7djkBg" frameborder="0"></iframe>
+            <section>
+                <form action="">
+                    <div>
+                        <label for="name">name*</label>
+                        <input
+                            type="text"
+                            required
+                            placeholder="Dûmont"
+                            name="name"
+                            id="name"
+                        />
+                    </div>
+                    <div>
+                        <label for="surname">surname*</label>
+                        <input
+                            type="text"
+                            required
+                            placeholder="Jean"
+                            name="surname"
+                            id="surname"
+                        />
+                    </div>
+                    <div>
+                        <label for="e-mail">e-mail*</label>
+                        <input
+                            type="email"
+                            required
+                            placeholder="e-mail@email.com"
+                            name="e-mail"
+                            id="e-mail"
+                        />
+                    </div>
+                    <div>
+                        <label for="password">password*</label>
+                        <input
+                            type="password"
+                            required
+                            placeholder="******"
+                            name="password"
+                            id="password"
+                        />
+                    </div>
+                    <div class="boutton">
+                        <button type="submit" value="submit">send</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>

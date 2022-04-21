@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+}
+.container{
+    background: #273978;
+    width: 50%;
+    margin: 2vh auto;
+    color: white;
+    text-align: center;
+    
+}
+h1{
+    width: 30%;
+    margin: auto;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure{
+    width: 24%;
+}
+.imageGD{
+    width: 100%;
+}
+.imageM{
+    width: 100%;
+}
+.s{
+    color: black;
+}
+span{
+    background: #000;
+}
+@media screen and (max-width: 1700px) {
+    figure{
+        margin: 16px 20px;
+    }
+    section{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1300px) {
+    section{
+        justify-content: space-around;
+        padding: 10px;
+    }
+    figure{
+        width: 40%;
+        margin: 5%;
+    }
+    .dernier{
+        margin: auto;
+    }
+}
+@media screen and (max-width:700px) {
+    figure{
+        width: 100%;
+    }
+}
+

@@ -1,4 +1,4 @@
-html, body{
+/* html, body{
     text-align: center;
     padding: 0%;
     margin: 0%;
@@ -72,4 +72,98 @@ height: 5.5vh;
 {
     body{
         font-size: 10px;
+    } */
+*{
+    box-sizing: border-box;
+}
+iframe{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+
+}
+form{
+    
+    background-color: rgb(199, 197, 197);
+    width: 50vh;
+    margin: auto;
+    /* padding: 0px 1vw; */
+    display: flex;
+    flex-flow: column wrap ;
+    box-shadow: 8px 8px 8 #000;
+    border: 1px solid #000;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+.boutton{
+    justify-content: end;
+    padding-top: 1vh;
+}
+label, input{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 11vw;
+}
+label{
+    width: 4vw;
+}
+button{
+    
+}
+@media screen and (max-width: 1280px) {
+    form div{
+        font-size: 1vw;
     }
+}
+@media screen and (max-width: 1250px) {
+form div{
+    flex-direction: column;
+    height: 15vh;
+ }
+ label, input{
+     width: 90%;
+     margin-left: 5px;
+ }
+ .boutton{
+     width: 5vw;
+     align-self: center;
+ }
+ form{
+    height: 80vh;
+ }
+}
+@media screen and (max-width: 1097px) {
+    form{
+        display: block;
+    }
+    label, input{
+        margin-top: 0%;
+        font-size: 3.5vh;
+    }
+    form div{
+        display: block;
+    }
+    .boutton{
+        width: 100%;
+        margin-top: 5vh;
+        display: flex;
+        margin: 0% ;
+        margin-left: 6vw;
+    }
+    button{
+        width: 10vh;
+        font-size: 1vw;
+        padding: 0%;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 600px) {
+    form div{
+        line-height: 5vh;
+    }
+}
