@@ -661,7 +661,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  /* --bs-gutter-x: 1.5rem; */
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -787,7 +787,7 @@ progress {
 }
 
 .offset-2 {
-  margin-left: 16.66666667%;
+  /* margin-left: 16.66666667%; */
 }
 
 .offset-3 {
