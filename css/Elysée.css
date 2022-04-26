@@ -1,0 +1,104 @@
+.sec4_accueil .block1{
+    width: 360px;
+    height: 534px;
+    
+}
+.sec4_accueil .block1 p{
+    width: 360px;
+}
+.sec4_accueil .block_premier{
+    width: 100%;
+    height: 534px;
+    margin-right: 70px;
+}
+.sec4_accueil h1{
+    font-family: Aiglon Bold,Arial,sans-serif;
+    font-size: 3.125rem;
+    line-height: 1.5;
+    margin-bottom: 3.125rem;
+}
+.block_second{
+    height: 545.99px;
+}
+
+.sec4_accueil .block_premier{
+    position: relative;
+}
+.sec4_accueil .block_second{
+    height: 462px;
+}
+.sec4_accueil .block_img{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sec4_accueil .img1{
+    width: 360px;
+    height: 462px;
+    filter: brightness(50%);
+    transition: width 3s ease-in-out,height 3s ease-in-out;
+}
+.sec4_accueil .img1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(16,22,47,.45);
+}
+.sec4-accueil img{
+    overflow: hidden;
+}
+.sec4-accueil .img1:hover{
+    width: 400px;
+}
+.content_lien{
+    padding-left: 1.5rem;
+    padding-right: 93.5%;
+    padding-bottom: 9.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -4rem;
+height: 525px;}
+
+
+.block_premier a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+}
+
+.sec4_accueil a:hover{
+    text-decoration: underline;
+}
+.sec4_accueil a{
+    font-weight: bold;
+}
+.sec4_accueil a, h1{
+    font-size: 2.5rem;
+}
+.sec4_accueil a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sec4_accueil h3{
+    width: 114px;
+}
+.sec2_agenda{
+    color: white;
+    font-size: .875rem;
+}
+.sec2_agenda .p{
+    padding: 100px;
+    padding-bottom: 70px;
+}
+.sec2_agenda .bg-primary{
+    background-color: #1d274a !important
+}
