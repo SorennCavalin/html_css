@@ -14,7 +14,7 @@
 //Prenom = "Mila";
 
 //var Prenom = "Mila";
-var truc = "chose"
+// var truc = "chose"
 // -- 3 : une instruction se termine TOUJOURS par un point-virgule, aussi il est possible d'écrire plusieurs instructions sur une seule ligne
 // inst_1;
 // inst_2; inst_3;
@@ -22,27 +22,34 @@ var truc = "chose"
 // -- 4 : Afficher une boîte de dialogue (2 façons)
 // alert("Super, tu es arrivé sur mon site !");
 // window.alert("Super, tu es arrivé sur mon site !");
-alert("salut");
-window.alert("bonjour");
+// alert("salut");
+// window.alert("bonjour");
 
 // -- 5 : Afficher dans la console (ici, la valeur de ma variable Prenom)
 //console.log(Prenom);
-console.log(truc)
+// console.log(truc)
 
 // -- 6 : Afficher dans la page web
 //document.write("A la pause vous aurez des Haribos Pik !");
-document.write("blop")
+// document.write("blop")
 
 // -- 7 : Demander à l'utilisateur une valeur (2 façons)
 // window.prompt("Question: on est quel jour ?", "jour de la semaine");
 // prompt("Question: on est quel jour ?", "jour de la semaine");
-prompt("QUIZ, ton num de cb")
+
+// prompt("QUIZ, ton num de cb")
+
 // var jour ="mardi"
 // var jour = prompt("Question: quel jour on est?", jour);
 // console.log(jour);
+
+// var question = prompt("question bla bla");
+// document.write(question);
+
 // -- et pour manipuler cette valeur, je n'oublie pas de la stocker
-var jour = prompt("Question: on est quel jour ?", "jour de la semaine");
-console.log(jour);
+
+// var jour = "prompt(\"Question: on est quel jour ?\", \"jour de la semaine\")";
+// console.log(jour);
 
 // -- 8 : Attention /!\ le JS est sensible à la casse ('case sensitive')
 // mavariable =/= maVariable =/= ma_variable
@@ -83,7 +90,9 @@ var unBooleen = false; // -- true
 */
 
 // -- Par convention les constantes sont en majuscules
+
 const PAYS = "France"; // string
+const pays = "Iran"; // string
 const AN = '2020'; // string
 const BIRTH = 2020; // nombre
 
