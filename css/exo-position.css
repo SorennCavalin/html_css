@@ -1,0 +1,74 @@
+body{
+    height: 3000px;
+}
+.carre-rouge{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: .5px solid yellow;
+    height: 50px;
+    width: 50px;
+}
+.carre-bleu{
+    background-color: blue;
+    border: 1px solid yellow;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+.carre-jaune{
+    background-color: yellow;
+    border: 1px solid yellow;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.carre-vert{
+    background-color: green;
+    border: 1px solid yellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+}
+.conteneur{
+   height:1000px;
+   width: 300px;
+   position: absolute;
+   top: 10%;left: 43%;
+}
+.triangle{
+    display: inline-block;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    border-top: 150px solid purple;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
+.rond{
+    background-color: skyblue;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 15%;
+    top: 4.6%;
+}
+.ombre{
+    background-color: lightgray;
+    opacity: 0.5;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 15%;
+}
