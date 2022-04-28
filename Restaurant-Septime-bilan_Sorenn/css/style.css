@@ -83,7 +83,7 @@ footer{
     padding-bottom: 200px;
 }
 .plan{
-    width: 100px;
+    width: 120px;
     height: 100px;
 }
 span{
@@ -99,4 +99,19 @@ a{
     text-decoration: none;
     color: black;
     font-style: oblique;
+}
+.city{
+    position: relative;
+    width: 120px;
+    height: 80px;
+    border: none;
+    font-size: 16px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+
+}
+h1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
