@@ -12,8 +12,8 @@
 
 var age = prompt("Quelle est votre age?");
 if (age < 18) {
-    document.write('vous êtes trop jeune pour utiliser ce site <br> cliquez sur le lien suivant pour etre renvoyé vers google <a href="https://www.google.com/">ici</a>' )
+    document.write('vous êtes trop jeune pour utiliser ce site <br> cliquez sur le lien suivant pour etre renvoyé vers google <a href="https://www.google.com/">ici</a>');
 }
-if (age > 17) {
-    document.write("bienvenue")
+else {
+    document.write("bienvenue");
 }
