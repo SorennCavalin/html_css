@@ -21,8 +21,8 @@
 // var test = document.write("test");
 // console.log(test);
 
-// var exo = prompt("met une valeur");
-// var exo2 = parseInt(exo);
+var exo = prompt("met une valeur");
+var exo2 = parseInt(exo);
 
 // if (Number.isNaN(exo2)) {
 //     exo.toString(exo)
@@ -35,12 +35,6 @@
 //     document.write(` vous avez renter une valeur de type ${typeof exo2}`)
 // }
 
-for (var i = 1; i <= 100; i += 2){
-    document.write(i)
-}
-var j = 1;
-while (j <= 10) {
-
-    document.write("<br>" +j);
-    j++;
-}
+var exo3 = parseFloat(exo2);
+console.log(exo3 === exo2);
+console.log(typeof exo3,typeof exo2)

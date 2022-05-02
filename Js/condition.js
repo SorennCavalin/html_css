@@ -17,3 +17,4 @@ if (age < 18) {
 else {
     document.write("bienvenue");
 }
+

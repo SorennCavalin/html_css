@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+/* dégradé */
+
+.dégradé{
+    background:linear-gradient()
+}
+
+/* Majuscules */
+
+.Maj{
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+
+/*background*/
+
+.background{
+    background: url() no-repeat ;
+    background-position: 100px 100px;
+    background-size: 100px 100px;
+}
