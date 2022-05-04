@@ -76,14 +76,30 @@
 // console.log(typeof test)
 
 
-var test = {
-    nom: prompt("quel est tom nom"),
-    age: prompt("quel est ton age"),
-    veux:prompt("que veut tu?"),
+// var test = {
+//     nom: prompt("quel est tom nom"),
+//     age: prompt("quel est ton age"),
+//     veux:prompt("que veut tu?"),
 
-    bonjour: function() {
-        alert("bonjour je m'appele " + test.nom + " j'ai " + test.age + " ans et je veux " + test.veux)
+//     bonjour: function() {
+//         alert("bonjour je m'appele " + test.nom + " j'ai " + test.age + " ans et je veux " + test.veux)
+//     }
+// }
+
+// var chiffre = "truc"
+// console.log(chiffre)
+// console.log(typeof chiffre)
+
+// chiffre++
+// console.log(chiffre)
+// console.log(typeof chiffre)
+
+let nb1 = Number(prompt("nombre"))
+if (Number.isNaN(nb1) === true) {
+    document.write("j'ai dis un nombre...")
+}
+else {
+    if (nb1 > 10) {
+        document.write("Sorenn")
     }
 }
-
-test.bonjour()
