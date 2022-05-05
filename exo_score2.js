@@ -43,3 +43,4 @@ var finPhrase = "stagiaire";
 var suitePhrase = "sont présents";
 console.log(typeof finPhrase, typeof suitePhrase);
 
+

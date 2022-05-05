@@ -61,7 +61,7 @@ nav{
 .header_bot{
     border: 4px white double ;
     padding: 10px;
-    margin-top:32px;
+    margin-top: 45px;
 }
 
 main{
@@ -100,25 +100,15 @@ section img{
     margin-bottom: 11.5vh;
     width:300px; height: 300px;
 }
-.informations{
-    
-}
-section p{
-    
-}
 .turquoise img{
     float: right;
     margin-left: 200px;
-    margin-right: 0;
 }
 .turquoise{
     background: linear-gradient(rgb(97,227,194),rgb(70,134,195));
 }
 .orange{
     background: linear-gradient(rgb(226,132,23),rgb(92,144,181));
-}
-.orange img{
-    margin-top: 0;
 }
 footer{
     background: linear-gradient( rgb(34,193,195),rgb(45, 253, 149));
@@ -156,7 +146,6 @@ footer li{
     .header_top h1{
         margin-top: 22px;
     }
-
     .logo_titre{
         width: 100%;
         display: flex;
@@ -172,7 +161,7 @@ footer li{
         justify-content: space-around;
     }
     .header_bot{
-        margin-top: 5px;
+        margin-top: 8px;
     }
     section{
         position: relative;
@@ -193,6 +182,22 @@ footer li{
     }
     .turquoise h1{
         margin-top: 30px;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer ul{
+        display: block;
+    }
+}
+@media screen and (max-width:500px) {
+    header{
+        height: 170px;
+    }
+    section img{
+        width: 100px;
+        height: 100px;
     }
 }
 @media screen and (min-width: 1700px) {

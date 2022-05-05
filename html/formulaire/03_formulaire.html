@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/03_formulaire.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <div>
-    <form>
-        <label for="pseudo">pseudo *</label>
-            <input type="text" id="pseudo" name="pseudo" placeholder="TitiVLG" required>
-    <br>
-        <label for="mdp">mot de passe *</label>
-            <input type="password" id="mdp" name="mdp" placeholder="mot de passe" required>    
-    <br>
-        <label for="e-mail">e-mail *</label>
-            <input type="e-mail" id="e-mail" name="email" placeholder="***@email.com" required> 
-    <br>
-        <label for="photo">photo</label>
-            <input type="file" id="photo" name="photo">
-    <br>
-         <label for="question">Quelle destination choisissez-vous?</label>
-         <p>
-            <input type="checkbox" id="Chine" name="question" > Chine
-            <input type="checkbox" id="Mars" name="question" > Mars
-            <input type="checkbox" id="Australie" name="question" > Australie
-         </p>
-    <br>
-        <label for="commentaire">commentaire</label>
-            <textarea type="textarea" id="commentaire" name="commentaire" rows="8" cols="80"> </textarea>
-    <br>
-    <input type="submit" id="inscription" name="inscription" value="Envoyer">
-    <input type="submit" id="annuler" name="annuler" value="Annuler">
-    </form>
-    </div>  
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="css/03_formulaire.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div>
+            <form>
+                <label for="pseudo">pseudo *</label>
+                <input
+                    type="text"
+                    id="pseudo"
+                    name="pseudo"
+                    placeholder="TitiVLG"
+                    required
+                />
+                <br />
+                <label for="mdp">mot de passe *</label>
+                <input
+                    type="password"
+                    id="mdp"
+                    name="mdp"
+                    placeholder="mot de passe"
+                    required
+                />
+                <br />
+                <label for="e-mail">e-mail *</label>
+                <input
+                    type="e-mail"
+                    id="e-mail"
+                    name="email"
+                    placeholder="***@email.com"
+                    required
+                />
+                <br />
+                <label for="photo">photo</label>
+                <input type="file" id="photo" name="photo" />
+                <br />
+                <label for="question"
+                    >Quelle destination choisissez-vous?</label
+                >
+                <p>
+                    <input type="checkbox" id="Chine" name="question" /> Chine
+                    <input type="checkbox" id="Mars" name="question" /> Mars
+                    <input type="checkbox" id="Australie" name="question" />
+                    Australie
+                </p>
+                <br />
+                <label for="commentaire">commentaire</label>
+                <textarea
+                    type="textarea"
+                    id="commentaire"
+                    name="commentaire"
+                    rows="8"
+                    cols="80"
+                >
+                </textarea>
+                <br />
+                <input
+                    type="submit"
+                    id="inscription"
+                    name="inscription"
+                    value="Envoyer"
+                />
+                <input
+                    type="submit"
+                    id="annuler"
+                    name="annuler"
+                    value="Annuler"
+                />
+            </form>
+        </div>
 
-
-</body>
+        <script src="/Js/test.js"></script>
+    </body>
 </html>
