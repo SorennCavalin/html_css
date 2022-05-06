@@ -15,36 +15,7 @@
     
 // }
 // document.write("il m'a fallut " + tps + " mois pour avoir 2000 € en partant de 1000€ et en posant sur mon compte 50€ par mois")
-var etoile = "*"
-var espace;
-var nombre;
-var colonnes = 11
-for (var j = 1; j <= colonnes; j++) {
-    nombre = colonnes - j + 1;
-    espace = colonnes - nombre;
-    for (var a = 1; a <= espace; a++){
-        document.write("&nbsp")
-    }
-    for (var b = nombre; b >= 1; b--){
-        document.write(etoile)
-    }
-    document.write("<br>")
-}
-var etoile = "*"
-var espace;
-var nombre;
-var colonnes = 11
-for (var j = 1; j <= colonnes; j++) {
-    nombre = colonnes - j + 1;
-    espace = colonnes - nombre;
-    for (var a = 1; a <= nombre; a++){
-        document.write("&nbsp")
-    }
-    for (var b = espace; b >= 1; b--){
-        document.write(etoile)
-    }
-    document.write("<br>")
-}
+
 // var nbTraits
 // var nbEtoiles
 // var nombreLu
