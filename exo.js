@@ -28,19 +28,34 @@
 
 
 
-var nb1 = 1;
-var nb2 = 5; 
-var res = nb1 + nb2;
-document.write("Le résultat est " + res)
+// var nb1 = 1;
+// var nb2 = 5;
+// var res = nb1 + nb2;
+// document.write("Le résultat est " + res)
 
-var nb1 = 25;
-var nb2 = 3;
-var res = nb1 + nb2;
-console.log(res);
-document.write(" <br> le resultat est " + res + "<br> saute une ligne <br>")
+// var nb1 = 25;
+// var nb2 = 3;
+// var res = nb1 + nb2;
+// console.log(res);
+// document.write(" <br> le resultat est " + res + "<br> saute une ligne <br>")
 
-var finPhrase = "stagiaire";
-var suitePhrase = "sont présents";
-console.log(typeof finPhrase, typeof suitePhrase);
+// var finPhrase = "stagiaire";
+// var suitePhrase = "sont présents";
+// console.log(typeof finPhrase, typeof suitePhrase);
 
+var premier = Number(prompt(""))
+var second = Number(prompt(""))
+var trois = Number(prompt(""))
+
+if (premier > second) {
+    premier = trois * 3
+} else  if (trois < second) {
+        premier++
+        if (premier === trois) {
+            second = (premier + trois) * 3
+        }
+} else {
+    alert("je suis perdu")
+}
+document.write(premier + "<br>" + second + "<br>" + trois )
 

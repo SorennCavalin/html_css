@@ -1,0 +1,12 @@
+.vert{
+    color: green;
+}
+.souligner{
+    border-bottom: 1px solid black;
+}
+#bap{
+    font-weight: bold;
+}
+#blop{
+    font-style: oblique;
+}
