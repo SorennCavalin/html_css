@@ -22,21 +22,3 @@
 //         document.write(etoile)
 //     }
 // }
-
-// for (let exercise = 1; exercise <= 3; exercise++) {
-//     console.log(`---------- Starting exercise ${exercise}`)
- 
-//     for (let rep = 1; rep <= 6; rep++) {
-//        console.log(`Exercise ${exercise}: Lifting weight repetitition ${rep}`);
-//     }
-//
-// }for (var PyramideRow1 = 1; PyramideRow1 <= 10; PyramideRow1++) {
-//       if (etoile.length[0] === "&nbsp") {
-                                       
-    // for (var PyramideRow10 = 1; PyramideRow10 <= 10; PyramideRow10++) {
-    //     document.write(etoile)
-    //     }
-    //     etoile.slice(1,-1)
-    //     document.write(etoile)
-    // } else {
-    //     etoile = "&nbsp" + etoile

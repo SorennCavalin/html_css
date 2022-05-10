@@ -137,6 +137,3 @@
 
 
 // // FIN
-
-
-prompt("machin");
