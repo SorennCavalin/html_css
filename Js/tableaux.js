@@ -37,3 +37,23 @@ console.log(resultatDeLeFonctionSplice)
 var resultatDeLeFonctionSplice = tableauFruit.slice(position, 1)
 console.log(tableauFruit)
 console.log(resultatDeLeFonctionSplice)
+
+var moi = ['sorenn', 'cavalin', 's.cavalin@lepoles.org', 18, '11/05/2022'];
+console.log(moi);
+var deplacement = moi.pop();
+console.log(moi);
+moi.unshift(deplacement);
+console.log(moi);
+
+var retirer = moi.splice(2, 2, 94200 ,'mdp');
+console.log(retirer)
+console.log(moi)
+moi.push(retirer[1])
+console.log(moi)
+// moi
+moi.push(1, )
+// moi.splice(1 , 0, retirer[0])
+for (var i = 0; i < moi.length; i++) {
+    console.log(moi[i])
+    document.write(moi[i] + '<br>')
+}
