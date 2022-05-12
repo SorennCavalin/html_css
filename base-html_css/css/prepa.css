@@ -1,0 +1,141 @@
+
+main{
+    background-color: rgb(188, 188, 245);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+div{
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+.blurry img{
+    filter: blur(2px);
+    transform: rotate(8deg);
+    box-shadow: 10px 2px 10px blue;
+    transition:ease 2s;
+}
+.blurry img:hover{
+    transform: rotate(16deg);
+    filter: blur(0px);
+}
+.saturation img{
+    filter: saturate(200%);
+    transform: skew(6deg);
+    box-shadow: 2px 4px 20px rgb(255, 0, 0);
+    transition: ease-out 2s;
+}
+.saturation img:hover{
+    transform: skew(-6deg);
+    filter: saturate(150%);
+}
+.grayscale img{
+    filter: grayscale(100%);
+    transform: rotate(-16deg);
+    box-shadow: -15px -5px 50px green;
+    transition: ease-in 2s;
+}
+.grayscale img:hover{
+    transform: rotate(-40deg);
+    filter: grayscale(20%);
+}
+.brightness img {
+    filter: brightness(200%);
+    transform: skew(-10deg);
+    box-shadow: 20px -50px 5px rgb(255, 0, 200);
+    transition: ease-in-out 2s;
+}
+.brightness img:hover{
+    transform: skew(30deg);
+    filter: brightness(30%);
+}
+
+.disparition img{
+    animation: disparait 2s ease-in-out forwards infinite;
+}
+
+@keyframes disparait{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;;
+    }
+}
+
+.taille img{
+    animation: change 2s ease-in both infinite;
+}
+@keyframes change{
+    from{
+        width: 300px;
+        height: 320px;
+    }
+    to{
+        width: 200px;
+        height: 210px;
+    }
+}
+.deplacement img{
+    animation: deplace 2s infinite;
+    position: relative;
+}
+
+@keyframes deplace{
+  0%   {right:0px; top:0px;}
+  50%  {right:0px; top:200px;}
+  100% {right:0px; top:0px;}
+
+}
+
+@media screen and (max-width:992px) {
+    section:first-of-type{
+        justify-content: space-between;
+    }
+    section div{
+        width: 50%;
+    }
+    img{
+        width: 200px;
+    }
+    .grayscale img,.brightness img{
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    section:first-of-type{
+        align-content: center;
+    }
+    section div{
+        width: 50%;
+    }
+    img{
+        width: 200px;
+    }
+    .brightness img{
+        margin-left: 0;
+    }
+    
+    .grayscale img,.blurry img{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    section:first-of-type{
+        flex-direction: column;
+    }
+    section div{
+        width: 51%;
+    }
+    img{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}
