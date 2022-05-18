@@ -1020,6 +1020,7 @@ li .fas:hover {
 
 #menuDeroulant ul ul {
     display: none;
+    
 }
 
 #menuDeroulant nav ul li ul li {
@@ -1041,7 +1042,6 @@ li .fas:hover {
 #menuDeroulant ul {
     text-align: center;
 }
-
 #menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
     display: block;
     color: red;
