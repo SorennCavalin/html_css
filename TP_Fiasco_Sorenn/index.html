@@ -5,22 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="/consignes/css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+        <div class="assombrissement"><img src="img/eggs.jpg" alt="" /></div>
         <header>
             <div class="header-top">
-                <p class="text-faded">the fiasco</p>
+                <a href="" class="text-faded logo">the fiasco</a>
                 <nav>
                     <ul>
                         <li>
-                            <a href="" class="text-faded">about fiasco's</a>
+                            <a href="#about" class="text-faded"
+                                >about fiasco's</a
+                            >
                         </li>
-                        <li><a href="" class="text-faded">menu</a></li>
-                        <li><a href="" class="text-faded">recipes</a></li>
-                        <li><a href="" class="text-faded">contact</a></li>
-                        <li class="activ text-faded">
-                            <a href="">make reservation</a>
+                        <li><a href="#menu" class="text-faded">menu</a></li>
+                        <li>
+                            <a href="#recipes" class="text-faded">recipes</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="text-faded">contact</a>
+                        </li>
+                        <li>
+                            <a href="#reservation" class="text-faded"
+                                >make reservation</a
+                            >
                         </li>
                     </ul>
                 </nav>
@@ -30,7 +39,7 @@
             <h3 class="text-faded">Mediterranean specialties</h3>
         </header>
         <main>
-            <section class="premiere">
+            <section class="premiere" id="about">
                 <div class="prems">
                     <div class="img-holder">
                         <img src="img/burger.jpg" alt="" />
@@ -45,7 +54,24 @@
                             autem voluptatum, fugiat officiis? Aliquam hic odit
                             odio recusandae saepe!
                         </p>
-                        <a href="">see more...></a>
+                        <a href=""
+                            >see more...
+                            <span class="anim"
+                                ><svg
+                                    width="5"
+                                    height="9"
+                                    viewBox="0 0 5 9"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 0L4 4L0 8"
+                                        transform="translate(0.5 0.5)"
+                                        stroke="#C89446"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    /></svg></span
+                        ></a>
                     </div>
                 </div>
                 <div class="deux">
@@ -62,13 +88,29 @@
                             voluptatem illo excepturi accusamus harum! Laborum
                             fugit, hic architecto beatae ullam vitae.
                         </p>
-                        <a href="">see more...></a>
+                        <a href=""
+                            >see more...<span class="anim"
+                                ><svg
+                                    width="5"
+                                    height="9"
+                                    viewBox="0 0 5 9"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 0L4 4L0 8"
+                                        transform="translate(0.5 0.5)"
+                                        stroke="#C89446"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    /></svg></span
+                        ></a>
                     </div>
                 </div>
             </section>
             <section class="deuxieme">
                 <div class="information">
-                    <h2>menu</h2>
+                    <h2 id="menu">menu</h2>
                     <h1>certified bio</h1>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -163,12 +205,28 @@
                         <br />
                         soluta nihil expedita? Atque vero non reiciendis!
                     </p>
-                    <a href="">see the cooks...></a>
+                    <a href=""
+                        >see the cooks...<span class="anim"
+                            ><svg
+                                width="5"
+                                height="9"
+                                viewBox="0 0 5 9"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M0 0L4 4L0 8"
+                                    transform="translate(0.5 0.5)"
+                                    stroke="#C89446"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                /></svg></span
+                    ></a>
                 </div>
                 <div><img src="img/chief.jpg" alt="" /></div>
             </section>
             <section>
-                <div class="bg-salle">
+                <div class="bg-salle" id="reservation">
                     <h2>reservation</h2>
                     <h1>make reservation</h1>
                     <p>
@@ -183,18 +241,26 @@
                             name="full name"
                             placeholder="full name (focus)"
                         />
-                        <button class="number">for 2 persons</button>
+                        <select name="nombre" id="number" class="number">
+                            <option value="1">for 1 person</option>
+                            <option value="2">for 2 person</option>
+                            <option value="3">for 3 person</option>
+                        </select>
+                            
+                        </button>
                         <input
                             class="date"
-                            type="text"
+                            type="date"
                             name="full name"
-                            placeholder="10/10/2010"
+                            value="2022-05-19"
+                        min="2022-05-19"
+                        max="2030-05-19"
                         />
                     </div>
                     <button class="submit" value="submit">reserve table</button>
                 </div>
             </section>
-            <section class="share">
+            <section class="share" id="recipes">
                 <h2>recipes</h2>
                 <h1>we share recipes with you</h1>
                 <p class="text-faded">
@@ -235,7 +301,7 @@
                         distinctio suscipit modi, voluptatibus vero.
                     </p>
                 </div>
-                <a href="">go to our blog...></a>
+                <a href="">go to our blog...<span class="anim">></span></a>
             </section>
             <section>
                 <iframe
@@ -250,29 +316,39 @@
             </section>
         </main>
         <footer>
-            <div>
-                <h2>the fiasco</h2>
-                <p class="faded">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Numquam harum velit aspernatur ab veniam reprehenderit? A
-                    nam qui voluptatem similique obcaecati ipsum, porro, quia
-                    itaque magni, numquam commodi facere nesciunt!
-                </p>
+            <!-- footer-flex pour mettre le footer en 2 au dessus et 1 en dessous sans toucher au p.no-margin a 1000px -->
+            <div class="footer-flex" id="contact">
+                <div>
+                    <h2>the fiasco</h2>
+                    <p class="text-faded">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Numquam harum velit aspernatur ab veniam
+                        reprehenderit? A nam qui voluptatem similique obcaecati
+                        ipsum, porro, quia itaque magni, numquam commodi facere
+                        nesciunt!
+                    </p>
+                </div>
+                <div>
+                    <h2>contact info</h2>
+                    <p class="text-faded">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Quae recusandae dolor esse veniam accusamus
+                        veritatis, ducimus officiis minus odit illo aperiam
+                        molestias modi nulla, delectus vero rerum aspernatur
+                        odio sint?
+                    </p>
+                </div>
+                <div>
+                    <h2>opening hours</h2>
+                    <p class="text-faded">
+                        monday to friday 10 00 am - 11 00 pm
+                    </p>
+                </div>
             </div>
-            <div>
-                <h2>contact info</h2>
-                <p class="faded">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quae recusandae dolor esse veniam accusamus veritatis,
-                    ducimus officiis minus odit illo aperiam molestias modi
-                    nulla, delectus vero rerum aspernatur odio sint?
-                </p>
-            </div>
-            <div>
-                <h2>opening hours</h2>
-                <p class="faded">monday to friday 10 00 am - 11 00 pm</p>
-                <p class="faded">2018 THE FIASCO All rights reserved</p>
-            </div>
+            <!-- classe no-margin pour ne pas avoir de barre noire a la fin de la page -->
+            <p class="text-faded no-margin">
+                2018 THE FIASCO All rights reserved
+            </p>
         </footer>
     </body>
 </html>
