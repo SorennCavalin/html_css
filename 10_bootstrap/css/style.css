@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Texturina:ital,wght@0,700;0,900;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, em, footer p{
+    font-family: 'Texturina', serif;
+}
+h1 , q , div{
+    overflow: hidden;
+}
