@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-header{
+/* header{
     background-color: pink;
     width: 100%;
     min-height: 100px;
@@ -71,5 +71,133 @@ footer{
     }
     footer{
         margin-top: 100px;
+    }
+} */
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    width: 100%;
+    background-color: red;
+    min-height: 500px;
+}
+.container{
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 500px;
+    align-items: center;
+    border: 1px solid #000;
+}
+.double{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+.rectangle{
+    width: 90%;
+    height: 40%;
+    background-color: blue;
+}
+main.container{
+    height: auto;
+    width: 1500px;
+    padding: 20px;
+    background-color: salmon;
+}
+.bloc-bleu{
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.plein , .quelques{
+    width: 95%;
+    padding: 10px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.petit{
+    width: 10%;
+    height: 8vw;
+    background-color: blue;
+}
+.rec-jaune{
+    width: 15%;
+    height: 10vw;
+    background-color: yellow;
+
+}
+@media screen and (max-width:1500px) {
+    .container{
+        width: 100%;
+    }
+    main.container{
+        width: 100%;
+        padding: 0;
+    }
+    .bloc-bleu{
+        margin: 10px 0 10px 0;
+        width: 30%;
+        height: 30vw;
+    }
+    .rec-jaune{
+        width: 15vw;
+        height: 10vw;
+    }
+    .petit{
+        width: 10vw;
+        height: 10vw;
+    }
+}
+@media screen and (max-width:700px) {
+    header{
+        height: auto;
+    }
+    header .container{
+        flex-direction: column;
+        height: auto;
+    }
+    .double{
+        height: 100vh;
+        width: 80%;
+    }
+    .bloc-bleu:active{
+        width: 40%;
+        height: 40vw;
+    }
+    footer , footer .container{
+        height: 70vw;
+        min-height: 0;
+    }
+    .plein, .quelques{
+        padding: 10px 0;
+    }
+    .rec-jaune{
+        width: 20vw;
+        height: 15vw;
+    }
+    .petit{
+        width: 20vw;
+        height: 15vw;
+        margin-bottom: 10px;
+    }
+    .plein{
+        flex-wrap: wrap;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .bloc-bleu{
+        width: 80%;
+        height: 80vw;
     }
 }
