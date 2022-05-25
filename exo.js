@@ -10,13 +10,17 @@
 
 // }
 
-var saisie = prompt("");
-var number = Number(saisie)
-if (isNaN(number)) {
-    document.write("vous avez tapé un string : " + saisie);
-} else {
-    document.write("vous avez tapé un nombre : " + number);
+// var saisie = prompt    ("");
+// var number = Number   (saisie)
+// if (isNaN  (number)) {
+//     document.write("vous avez tapé un string : " + saisie);
+// } else {
+//     document.write("vous avez tapé un nombre : " + number);
+// }
+// ;
+
+var pomme = pomme;
+function changer() {
+    pomme = fruit
 }
-;
-
-
+console.log(pomme)
