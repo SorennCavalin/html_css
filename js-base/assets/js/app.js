@@ -93,3 +93,79 @@ var res = false
 
 piscine = soleil ??  res;
 console.log(piscine);
+
+
+
+let oiseau = {
+    espece: "pie",
+    age: "3 mois",
+    habitat: "ville",
+}
+for (spec in oiseau) {
+    console.log(spec)
+    console.log(oiseau[spec])
+}
+
+let peinture = ['la joconde', 'l\'homme aux gants', 'le pandémonium']
+document.write(`<h2>liste des peinture</h2> <ul>`)
+for (let int of peinture) {
+    document.write(`<li> ${int}`)
+}
+document.write("</ul>")
+
+let indexPeinture = null;
+let peintureRecherchee = 'l\'homme aux gants'
+
+for (let i = 0; i < peinture.length;i++){
+    if (peinture[i] === peintureRecherchee) {
+        indexPeinture = i
+        
+        break
+    }
+    console.log(i)
+}
+if (indexPeinture) {
+    document.write("l'homme aux gants est a la position numero " + (indexPeinture + 1) + "<br>")
+}
+
+let t = ["element 1", "element 2", "element 3"]
+document.write(t)
+
+let fruit = ["apple", "banana"];
+let legume = ["citrouille", "courgette"]
+
+console.log(fruit, legume)
+
+var article = document.querySelector("article")
+console.log("article", article);
+article.innerHTML = "<h2>les fonctions </h2>"
+function maFonction(parametre1, parametre2, parametre3) {
+    console.log("execution du code interne de maFonction()...")
+    console.log('parametre1', parametre1)
+    console.log('parametre2', parametre2)
+    console.log('parametre3', parametre3)
+    article.innerHTML += "<p><ul>"
+    article.innerHTML += "<li>" + parametre1 + "</li>"
+    article.innerHTML += "<li>" + parametre2 + "</li>"
+    article.innerHTML += "<li>" + parametre3 + "</li>"
+    article.innerHTML +="</p></ul>"
+}
+maFonction("chien",true,42)
+
+
+function carre(para1) {
+    article.innerHTML += `<p> ${para1 * para1}</p>`
+}
+carre(25)
+
+
+var animal = "orang-outan";
+const maFonction2 = function () {
+    let animal = "pingouin";
+    let autreAnimal = "escargot";
+    console.log(animal);
+    return autreAnimal;
+}
+var autreAnimal = maFonction2()
+console.log(autreAnimal)
+console.log(animal);
