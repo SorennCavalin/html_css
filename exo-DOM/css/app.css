@@ -1,0 +1,50 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+textarea{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    outline: none;
+    border: 3px solid green;
+}
+.orange{
+    border: 3px solid orange;
+}
+.red{
+    border: 3px solid red;
+}
+.text-red{
+    color: red;
+}
+.not-allowed{
+    cursor: not-allowed;
+}
+.none{
+    display: none;
+}
+div{
+    position: relative;
+}
+.nope{
+    display: block;
+    background-color: pink;
+    color: red;
+    position: absolute;
+    top: -52px;
+    left: 0;
+    width: 100%;
+}
+
+.success{
+    display: block;
+    color: white;
+    position: absolute;
+    background-color: green;
+    top: 30px;
+    left: 0;
+    width: 100%;
+}
