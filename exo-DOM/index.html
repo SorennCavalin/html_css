@@ -6,32 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="./css/app.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     </head>
     <body>
+        <!-- <div></div> -->
         <header></header>
         <nav></nav>
         <main>
             <section>
-                <form action="" id="form-twitter">
-                    <div>
-                        <span id="too-much" class="none">
-                            veuillez mettre moins au maximum 300 caractères
-                        </span>
-                        <textarea
-                            name="twitt"
-                            id="twitt"
-                            cols="30"
-                            rows="10"
-                        ></textarea>
-                        <p>300</p>
-                    </div>
-                    <div>
-                        <button value="submit" type="button">envoyer</button>
-                        <span id="success" class="none">
-                            vérification en cours
-                        </span>
-                    </div>
-                </form>
+                <div class="form-container">
+                    <form action="" method="" id="form">
+                        <div class="form-item message-red none">
+                            Votre message est trop long
+                        </div>
+                        <div class="form-item">
+                            <textarea
+                                name=""
+                                id=""
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                            <textarea
+                                name=""
+                                id=""
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                        </div>
+                        <div class="form-item text-green" id="car-restant">
+                            300
+                        </div>
+                        <div class="form-item">
+                            <button type="submit" disabled>envoyer</button>
+                        </div>
+                        <div class="form-item none verification" id="success">
+                            le message a bien été envoyé
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
         <footer></footer>

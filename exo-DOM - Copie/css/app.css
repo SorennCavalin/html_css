@@ -1,0 +1,48 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+#chat1 , #chat2{
+    width: 300px;
+    height: 300px;
+    padding: 5px 20px 0 20px;
+    margin: auto;
+    overflow-y: scroll;
+    border: 1px solid #000;
+}
+h2{
+    text-align: left;
+    font-size: 15px;
+}
+.me{
+    text-align: left;
+    padding: 20px 0;
+}
+.perso{
+    background-color: lightgray;
+    color: blue;
+    margin: 0;
+}
+.lui{
+    background-color: lightgray;
+    color: red;
+    margin: 0;
+}
+.user1 , .user2{
+    width: 500px;
+    text-align: center;
+}
+.user1 div , .user2 div{
+    width: 100%;
+}
+.u1{
+    text-align: right;
+}
+
