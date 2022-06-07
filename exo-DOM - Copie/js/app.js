@@ -1,26 +1,49 @@
-const message1 = document.querySelector('.user1 input');
-const message2 = document.querySelector('.user2 input');
-const conversation1 = document.querySelector('#chat1')
-const conversation2 = document.querySelector('#chat2')
-KEY_ENTER = 13
 
-message1.addEventListener('keydown',function type(message , u1 , u2) {
-    if (event.keyCode === 13) {
-        let envoyer = message1.value;
-        message1.value = ''
-        conversation1.innerHTML += `<h2 class="perso"> Me </h2> <p class="me perso"> ${envoyer} </p>`
-        conversation2.innerHTML += `<h2 class="lui"> User1 </h2> <p class="me lui"> ${envoyer} </p>`
-        conversation1.scrollBy(0,100)
+
+// message1.addEventListener()
+// message2.addEventListener('keydown',function type(e) {
+//     if (e.keyCode === 13) {
+//         let envoyer = message2.value;
+//         message2.value = ''
+//     conversation2.innerHTML += `<h2 class="u1 perso"> Me </h2> <p class="me u1 perso"> ${envoyer} </p>`
+//     conversation1.innerHTML += `<h2 class="u1 lui"> User1 </h2> <p class="me u1 lui"> ${envoyer} </p>`
+//     }
+// })
+
+
+
+
+
+var user1 = {
+    message: document.querySelector('.user1 input'),
+    conversation: document.querySelector('#chat1'),
+}
+user1.message.addEventListener('keydown',function type(e) {
+    if (e.keyCode === 13) {
+        let envoyer = user1.message.value;
+        user1.message.value = ''
+        user1.conversation.innerHTML += `<p class="message perso"> ${envoyer} </p>`
+        user2.conversation.innerHTML += `<p class="message lui"> ${envoyer} </p>`
+        user2.conversation.scrollBy(0,100)
+        user1.conversation.scrollBy(0,100)
     }
 })
-message2.addEventListener('keydown',function type(message , u1 , u2) {
-    if (event.keyCode === 13) {
-        let envoyer = message2.value;
-        message2.value = ''
-    conversation2.innerHTML += `<h2 class="u1 perso"> Me </h2> <p class="me u1 perso"> ${envoyer} </p>`
-    conversation1.innerHTML += `<h2 class="u1 lui"> User1 </h2> <p class="me u1 lui"> ${envoyer} </p>`
+var user2 = {
+    conversation: document.querySelector('#chat2'),
+    message: document.querySelector('.user2 input')
+}
+user2.message.addEventListener('keydown',function type(e) {
+    if (e.keyCode === 13) {
+        let envoyer = user2.message.value;
+        user2.message.value = ''
+        user2.conversation.innerHTML += `<p class="message perso"> ${envoyer} </p>`
+        user1.conversation.innerHTML += `<p class="message lui"> ${envoyer} </p>`
+        user1.conversation.scrollBy(0,100)
+        user2.conversation.scrollBy(0,100)
     }
 })
+
+
 
 // document.querySelector(".user1 input").addEventListener("keydown", myFunction);
 

@@ -9,6 +9,10 @@ body{
     align-items: center;
     height: 800px;
 }
+.container{
+    width: 60%;
+    margin: auto;
+}
 #chat1 , #chat2{
     width: 300px;
     height: 300px;
@@ -23,17 +27,19 @@ h2{
 }
 .me{
     text-align: left;
-    padding: 20px 0;
+    padding: 5px;
 }
 .perso{
     background-color: lightgray;
     color: blue;
     margin: 0;
+    text-align: start;
 }
 .lui{
     background-color: lightgray;
     color: red;
     margin: 0;
+    text-align: end;
 }
 .user1 , .user2{
     width: 500px;

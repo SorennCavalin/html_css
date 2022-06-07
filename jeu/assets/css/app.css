@@ -1,0 +1,86 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    width: 100%;
+}
+.battle{
+    width: 100%;
+    background: url();
+    display: flex;
+    justify-content: center;
+flex-direction: row;
+}
+.joueur,.ennemi{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+.stats{
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    position: relative;
+}
+.stats{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+.hp{
+    width: 300px;
+    border: 1px solid #000;
+    background-color: red;
+    text-align: center;
+    padding: 15px 0;
+}
+.hp-perdu{
+    position: absolute;
+    top: 1px;
+    right: 0;
+    height: 30px;
+    background-color: lightgray;
+}
+span{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 125px;
+    text-align: center;
+    z-index: 2;
+}
+.hp span{
+    top: 8px;
+}
+.niveau{
+    height: 18px;
+}
+.exp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 18px;
+    background-color: blue;
+}
+.ennemi .hp{
+    height: 100%;
+}
+
+.status{
+    height: 15px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.status-ailment{
+    margin: 0 10px 0 0;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
