@@ -1,5 +1,4 @@
 
-
 // message1.addEventListener()
 // message2.addEventListener('keydown',function type(e) {
 //     if (e.keyCode === 13) {

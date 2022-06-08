@@ -286,9 +286,9 @@ var odile = new Rh('odile', 25, 'odile@email.com');
 odile.payeDuMois(sam)
 console.log(sam.balance)
 
-interface iSalaire {
-    payer(employe)
-}
+// interface iSalaire {
+//     payer(employe)
+// }
 
 
 
