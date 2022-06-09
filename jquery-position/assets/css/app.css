@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+.blue-bkg{
+    width: 500px;
+    padding: 30px;
+    border: 1px solid blue;
+    background: lightblue;
+}
