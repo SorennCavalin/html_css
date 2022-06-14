@@ -1,0 +1,10 @@
+.header-conteneur{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: var(--main-bkg);
+}
+.contenu1{
+    margin: 0;
+    padding: 0;
+}

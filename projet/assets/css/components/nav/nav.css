@@ -1,0 +1,13 @@
+.nav-conteneur{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #ccc;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav h2{
+    text-align: center;
+}
